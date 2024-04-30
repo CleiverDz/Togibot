@@ -1,0 +1,216 @@
+/* Estilos generales */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffd6e2; /* Cambiado a rosa pastel */
+  color: #333;
+}
+
+.container {
+  max-width: 800px; /* Aumentar el ancho máximo del contenedor */
+  margin: 0 auto; /* Centrar el contenido horizontalmente */
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.logo {
+  font-size: 3em;
+  color: #ff0066;
+}
+
+.slogan {
+  font-size: 1.2em;
+  color: #777;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 1.2em;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ff0066;
+}
+
+main {
+  text-align: center;
+}
+
+.hero {
+  padding: 100px 0;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero-description {
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff0066;
+  color: #fff;
+  font-size: 1.2em;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  background-color: #cc0044;
+}
+
+.section-title {
+  font-size: 2em;
+  color: #ff0066;
+  margin-bottom: 40px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.feature {
+  flex: 1 1 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+}
+
+.feature-icon {
+  width: 80px;
+  height: 80px;
+  font-size: 2em;
+  line-height: 80px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+}
+
+.feature-icon i {
+  color: #fff;
+}
+
+.feature-title {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.feature-description {
+  color: #666;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+/* Estilos específicos para la página de comandos */
+.commands {
+  background-color: #fde0e0; /* Fondo del área de comandos */
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 5 0 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 2em;
+  color: #ff0066; /* Color del título de los comandos */
+  margin-bottom: 20px;
+}
+
+.commands p {
+  font-size: 1.4em;
+  color: #666; /* Color del texto de los comandos */
+  margin-bottom: 20px;
+}
+
+.commands ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.commands ul li {
+  font-size: 1.5em;
+  color: #333; /* Color de los comandos */
+  margin-bottom: 10px;
+}
+
+/* Estilos para el campo de entrada y botón */
+.command-input {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#command-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+#command-input:focus {
+  outline: none;
+  border-color: #ff0066; /* Cambio de color al enfocar */
+}
+
+#command-submit {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #ff0066;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#command-submit:hover {
+  background-color: #cc0044; /* Cambio de color al pasar el mouse */
+}
+
